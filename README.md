@@ -39,6 +39,8 @@ img = torch.randn(1, 3, 256, 256)
 preds = v(img) # (1, 1000)
 ```
 
+## Params
+
 - image_size: Integer. Maximum dimension (width or height) of the image.
 - patch_size: Integer. Size of image patches; image_size must be divisible by patch_size. Number of patches n = (image_size // patch_size)², and n must be > 16.
 - num_classes: Integer. Number of classification classes.
